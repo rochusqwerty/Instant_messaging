@@ -1,0 +1,45 @@
+<html><head>
+  <SCRIPT src="http://java.com/js/dtjava.js"></SCRIPT>
+<script>
+    function launchApplication(jnlpfile) {
+        dtjava.launch(            {
+                url : 'Sieci_komputerowe_klient.jnlp',
+                jnlp_content : 'PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxqbmxwIHNwZWM9IjEuMCIgeG1sbnM6amZ4PSJodHRwOi8vamF2YWZ4LmNvbSIgaHJlZj0iU2llY2lfa29tcHV0ZXJvd2Vfa2xpZW50LmpubHAiPg0KICA8aW5mb3JtYXRpb24+DQogICAgPHRpdGxlPlNpZWNpX2tvbXB1dGVyb3dlX2tsaWVudDwvdGl0bGU+DQogICAgPHZlbmRvcj5NYXJjaW48L3ZlbmRvcj4NCiAgICA8ZGVzY3JpcHRpb24+bnVsbDwvZGVzY3JpcHRpb24+DQogICAgPG9mZmxpbmUtYWxsb3dlZC8+DQogIDwvaW5mb3JtYXRpb24+DQogIDxyZXNvdXJjZXM+DQogICAgPGoyc2UgdmVyc2lvbj0iMS42KyIgaHJlZj0iaHR0cDovL2phdmEuc3VuLmNvbS9wcm9kdWN0cy9hdXRvZGwvajJzZSIvPg0KICAgIDxqYXIgaHJlZj0iU2llY2lfa29tcHV0ZXJvd2Vfa2xpZW50LmphciIgc2l6ZT0iMjU3NzIiIGRvd25sb2FkPSJlYWdlciIgLz4NCiAgICA8amFyIGhyZWY9ImxpYlxqc29uLXNpbXBsZS0xLjEuamFyIiBzaXplPSIxNjA0NiIgZG93bmxvYWQ9ImVhZ2VyIiAvPg0KICA8L3Jlc291cmNlcz4NCiAgPGpmeDpqYXZhZngtZGVzYyAgd2lkdGg9IjgwMCIgaGVpZ2h0PSI2MDAiIG1haW4tY2xhc3M9InNpZWNpX2tvbXB1dGVyb3dlX2tsaWVudC5TaWVjaV9rb21wdXRlcm93ZV9rbGllbnQiICBuYW1lPSJTaWVjaV9rb21wdXRlcm93ZV9rbGllbnQiIC8+DQogIDx1cGRhdGUgY2hlY2s9ImFsd2F5cyIvPg0KPC9qbmxwPg0K'
+            },
+            {
+                javafx : '8.0+'
+            },
+            {}
+        );
+        return false;
+    }
+</script>
+
+<script>
+    function javafxEmbedsieci_komputerowe_klient() {
+        dtjava.embed(
+            {
+                id : 'sieci_komputerowe_klient',
+                url : 'Sieci_komputerowe_klient.jnlp',
+                placeholder : 'javafx-app-placeholder',
+                width : '800',
+                height : '600',
+                jnlp_content : 'PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxqbmxwIHNwZWM9IjEuMCIgeG1sbnM6amZ4PSJodHRwOi8vamF2YWZ4LmNvbSIgaHJlZj0iU2llY2lfa29tcHV0ZXJvd2Vfa2xpZW50LmpubHAiPg0KICA8aW5mb3JtYXRpb24+DQogICAgPHRpdGxlPlNpZWNpX2tvbXB1dGVyb3dlX2tsaWVudDwvdGl0bGU+DQogICAgPHZlbmRvcj5NYXJjaW48L3ZlbmRvcj4NCiAgICA8ZGVzY3JpcHRpb24+bnVsbDwvZGVzY3JpcHRpb24+DQogICAgPG9mZmxpbmUtYWxsb3dlZC8+DQogIDwvaW5mb3JtYXRpb24+DQogIDxyZXNvdXJjZXM+DQogICAgPGoyc2UgdmVyc2lvbj0iMS42KyIgaHJlZj0iaHR0cDovL2phdmEuc3VuLmNvbS9wcm9kdWN0cy9hdXRvZGwvajJzZSIvPg0KICAgIDxqYXIgaHJlZj0iU2llY2lfa29tcHV0ZXJvd2Vfa2xpZW50LmphciIgc2l6ZT0iMjU3NzIiIGRvd25sb2FkPSJlYWdlciIgLz4NCiAgICA8amFyIGhyZWY9ImxpYlxqc29uLXNpbXBsZS0xLjEuamFyIiBzaXplPSIxNjA0NiIgZG93bmxvYWQ9ImVhZ2VyIiAvPg0KICA8L3Jlc291cmNlcz4NCiAgPGpmeDpqYXZhZngtZGVzYyAgd2lkdGg9IjgwMCIgaGVpZ2h0PSI2MDAiIG1haW4tY2xhc3M9InNpZWNpX2tvbXB1dGVyb3dlX2tsaWVudC5TaWVjaV9rb21wdXRlcm93ZV9rbGllbnQiICBuYW1lPSJTaWVjaV9rb21wdXRlcm93ZV9rbGllbnQiIC8+DQogIDx1cGRhdGUgY2hlY2s9ImFsd2F5cyIvPg0KPC9qbmxwPg0K'
+            },
+            {
+                javafx : '8.0+'
+            },
+            {}
+        );
+    }
+    <!-- Embed FX application into web page once page is loaded -->
+    dtjava.addOnloadCallback(javafxEmbedsieci_komputerowe_klient);
+</script>
+
+</head><body>
+<h2>Test page for <b>Sieci_komputerowe_klient</b></h2>
+  <b>Webstart:</b> <a href='Sieci_komputerowe_klient.jnlp' onclick="return launchApplication('Sieci_komputerowe_klient.jnlp');">click to launch this app as webstart</a><br><hr><br>
+
+  <!-- Applet will be inserted here -->
+  <div id='javafx-app-placeholder'></div>
+</body></html>
